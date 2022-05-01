@@ -2,5 +2,5 @@
 
 Start project with:
 ```
-cp -r ./refactor /mnt/c/Users/EliasGarza/Desktop/ 
+$ docker run -v "$(pwd)"/data:/usr/src/data financial-report 
 ```
