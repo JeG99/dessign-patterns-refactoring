@@ -20,7 +20,7 @@ public class WebReport {
     }
 
     public void createFile(String content) throws IOException {
-        FileWriter fileWriter = new FileWriter("financial-report.html");
+        FileWriter fileWriter = new FileWriter("/usr/src/data/financial-report.html");
         PrintWriter printWriter = new PrintWriter(fileWriter);
         printWriter.print(content);
         printWriter.close();
